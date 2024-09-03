@@ -1,3 +1,3 @@
-sudo ./install.sh
+sudo bash ./install.sh
 sleep 5
-sudo ./initail_bypass.sh
+sudo bash ./initail_bypass.sh
