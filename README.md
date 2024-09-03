@@ -4,7 +4,7 @@
 
 run 
 
-* git clone https://github.com/Mohammed-Farhaan-N/Infra-CI-CD-Tool-Kit.git
+* git clone https://github.com/Mohammed-Farhaan-N/Infra-CI-CD-Setup.git
 * cd Infra-CI-CD-Tool-Kit
 * chmod +x infra_tool_kit.sh
 * sudo bash ./infra_tool_kit.sh
