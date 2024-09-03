@@ -6,7 +6,4 @@ run
 
 * git clone https://github.com/Mohammed-Farhaan-N/Infra-CI-CD-Tool-Kit.git
 * cd Infra-CI-CD-Tool-Kit
-* chmod +x initail_bypass.sh install.sh
-* sudo  ./install.sh
-* sudo ./initail_bypass.sh
-  
+* chmod +x infra_tool_kit.sh
