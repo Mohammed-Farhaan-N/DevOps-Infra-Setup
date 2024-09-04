@@ -1,6 +1,6 @@
 sudo bash ./install.sh
 sleep 5
-sudo bash ./initail_bypass.sh
+sudo bash ./initail_jenkins_bypass.sh
 sleep 5
 cd ..
-rm -rf Infra-CI-CD-Tool-Kit
+rm -rf Infra-Config
