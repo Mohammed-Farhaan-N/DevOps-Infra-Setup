@@ -2,20 +2,6 @@ sudo apt update -y
 sudo apt install curl -y 
 sudo apt install unzip -y
 
-#awscli
-
-sudo apt update -y
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-unzip awscliv2.zip
-sudo ./aws/install
-
-#Docker
-
-sudo apt update -y
-sudo apt  install docker.io -y
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo chmod 666 /var/run/docker.sock
 
 #kubectl 
 
