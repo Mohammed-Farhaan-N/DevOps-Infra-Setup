@@ -1,4 +1,4 @@
-* This toolkit will reduce the setup time in all installation and configuration 
+* This will reduce the setup time in all installation and configuration 
 
 * This is in the development process
 
