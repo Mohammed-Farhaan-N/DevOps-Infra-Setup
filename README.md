@@ -1,64 +1,103 @@
-# DevOps-Infra-Setup
+# DevOps-Infra-Setup 🚀
 
-This project aims to reduce the time required for the installation and configuration of essential DevOps tools and infrastructure components. The setup process is currently in development and will provide an automated script to configure a basic DevOps environment, including Jenkins and SonarQube.
+Welcome to the **DevOps-Infra-Setup** project! This tool is designed to streamline the installation and configuration of essential DevOps tools and infrastructure components, specifically for Ubuntu/Debian operating systems. 
 
-## Features
+## 🎯 Features
 
-- **Automated Setup**: Installs and configures Jenkins, SonarQube, and other necessary DevOps tools.
+- **Automated Setup Scripts**:
+  - **Default Setup**: Installs Java, AWS CLI, Docker, Terraform, and Ansible.
+  - **Jenkins Setup**: Installs and configures Jenkins only.
+  - **Full CI/CD Environment**: Installs Jenkins, SonarQube, Trivy, and Nexus.
+  - **Kubernetes Environment**: Sets up `kubectl`, Helm, and `eksctl` for managing Kubernetes clusters.
+
 - **Predefined Credentials**:
   - **Jenkins Username**: `admin`
   - **Jenkins Password**: `admin`
   - **SonarQube Username**: `admin`
   - **SonarQube Password**: `admin`
 
-## Getting Started
+## 🛠 Getting Started
 
-To use this setup script, follow these steps:
+To get started with the setup, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository**:
 
     ```bash
     git clone https://github.com/Mohammed-Farhaan-N/DevOps-Infra-Setup.git
     ```
 
-2. Change to the project directory:
+2. **Navigate to the project directory**:
 
     ```bash
     cd DevOps-Infra-Setup
     ```
 
-3. Make the setup script executable:
+3. **Make the setup scripts executable**:
 
     ```bash
-    chmod +x infra_setup.sh
+    chmod +x *.sh
     ```
 
-4. Run the setup script with superuser privileges:
+4. **Run the basic installation**:
 
     ```bash
-    sudo bash ./infra_setup.sh
+    sudo ./basement.sh
     ```
 
-## Prerequisites
+## ⚙️ Usage
 
-Ensure you have the following installed before running the setup script:
+Choose the script based on your needs:
 
-- **Git**: To clone the repository.
-- **Bash**: To execute the script.
+- **Install Jenkins only**:
+    ```bash
+    sudo ./jenkins.sh
+    ```
 
-## Notes
+- **Install Full CI/CD Environment (Jenkins, SonarQube, Trivy, Nexus)**:
+    ```bash
+    sudo ./full-CI-CD-setup.sh
+    ```
 
-- This setup is currently in development. Additional features and improvements will be added over time.
-- Default credentials are set for ease of use during the initial setup. Please change these credentials in your environment for security purposes after installation.
+- **Set up Kubernetes Environment (kubectl, Helm, eksctl)**:
+    ```bash
+    ./Kube.setup.sh
+    ```
 
-## Contributing
+- **Verify all tools are installed**:
+    ```bash
+    sudo ./check-version.sh
+    ```
 
-Feel free to contribute to this project by creating a pull request or reporting an issue.
+## 📝 Prerequisites
 
-## License
+Ensure the following are installed before running the setup scripts:
+
+- **Git**: Required to clone the repository.
+- **Bash**: Required to execute the scripts.
+
+## 🛡 Notes
+
+- This setup is specifically developed for **Ubuntu/Debian** operating systems. Ensure you run these scripts on a compatible environment.
+- This project is in development, and additional features and improvements will be added over time.
+- Default credentials are provided for initial setup convenience. For security, please change these credentials in your environment after installation.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to create a pull request or report any issues.
+
+## 📜 License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-## Author
+## 👤 Author
 
 Created by [Mohammed Farhaan N](https://github.com/Mohammed-Farhaan-N)
+
+---
+
+### Notes on Enhancements:
+- **Professional Tone**: The README is written in a formal tone with clear sections and headings.
+- **Emojis**: Added emojis to make the document visually engaging.
+- **Compatibility Note**: Included a note about compatibility with Ubuntu/Debian OS.
+  
+You can further enhance the README by adding relevant images or GIFs to demonstrate setup processes or the tools in action.
