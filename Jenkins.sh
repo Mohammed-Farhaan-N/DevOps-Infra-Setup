@@ -10,5 +10,14 @@ sudo apt-get install jenkins -y
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
 
+#bypassing initial pass
 sudo bash ./CI-CD/Bypass_script/bypass_jenkins_initial_pass.sh
-sleep 5
+
+#Trivy
+sudo apt-get install wget apt-transport-https gnupg lsb-release -y
+wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
+echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+sudo apt-get update
+sudo apt-get install trivy -y
+
+sudo bash ./CI-CD/Bypass_script/bypass_jenkins_initial_pass.sh
