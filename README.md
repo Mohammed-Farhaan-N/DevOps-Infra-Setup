@@ -1,6 +1,6 @@
 # DevOps-Infra-Setup 🚀
 
-Welcome to the **DevOps-Infra-Setup** project! This tool is designed to streamline the installation and configuration of essential DevOps tools and infrastructure components, specifically for Ubuntu/Debian operating systems. 
+Welcome to the **DevOps-Infra-Setup** project! This innovative tool streamlines the installation and configuration of essential DevOps tools and infrastructure. Designed specifically for Ubuntu/Debian systems, it offers a seamless setup experience, so you can focus on optimizing your workflows and advancing your projects.
 
 ## 🎯 Features
 
@@ -10,12 +10,15 @@ Welcome to the **DevOps-Infra-Setup** project! This tool is designed to streamli
   - **Full CI/CD Environment**: Installs Jenkins, SonarQube, Trivy, and Nexus.
   - **Kubernetes Environment**: Sets up `kubectl`, Helm, and `eksctl` for managing Kubernetes clusters.
 
+
+- **Security Note**:
+  - **Jenkins Initial Admin Password**: I have reverse-engineered and bypassed the initial admin password setup for Jenkins. The credentials `admin` for both username and password are provided for convenience.
+  
 - **Predefined Credentials**:
   - **Jenkins Username**: `admin`
   - **Jenkins Password**: `admin`
-  - **SonarQube Username**: `admin`
-  - **SonarQube Password**: `admin`
-
+ 
+    
 ## 🛠 Getting Started
 
 To get started with the setup, follow these steps:
@@ -68,13 +71,6 @@ Choose the script based on your needs:
     sudo ./check-version.sh
     ```
 
-## 📝 Prerequisites
-
-Ensure the following are installed before running the setup scripts:
-
-- **Git**: Required to clone the repository.
-- **Bash**: Required to execute the scripts.
-
 ## 🛡 Notes
 
 - This setup is specifically developed for **Ubuntu/Debian** operating systems. Ensure you run these scripts on a compatible environment.
@@ -87,17 +83,8 @@ Contributions are welcome! Feel free to create a pull request or report any issu
 
 ## 📜 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This open-source project is available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
 Created by [Mohammed Farhaan N](https://github.com/Mohammed-Farhaan-N)
-
----
-
-### Notes on Enhancements:
-- **Professional Tone**: The README is written in a formal tone with clear sections and headings.
-- **Emojis**: Added emojis to make the document visually engaging.
-- **Compatibility Note**: Included a note about compatibility with Ubuntu/Debian OS.
-  
-You can further enhance the README by adding relevant images or GIFs to demonstrate setup processes or the tools in action.
