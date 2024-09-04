@@ -20,4 +20,3 @@ echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main |
 sudo apt-get update
 sudo apt-get install trivy -y
 
-sudo bash ./CI-CD/Bypass_script/bypass_jenkins_initial_pass.sh
