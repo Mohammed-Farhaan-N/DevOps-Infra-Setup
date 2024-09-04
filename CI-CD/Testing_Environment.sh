@@ -1,5 +1,5 @@
 #SonarQube 
-docker run -d --name sonarqube-custom -p 9000:9000 sonarqube:lts-community
+docker run -d --name sonarqube -p 9000:9000 sonarqube:lts-community
 
 #Trivy
 sudo apt-get install wget apt-transport-https gnupg lsb-release -y
