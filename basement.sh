@@ -2,12 +2,6 @@ sudo apt update
 sudo apt install unzip -y
 sudo apt install curl -y 
 
-#Python3 
-sudo apt install python3 -y
-sudo apt install python3-pip -y
-sudo apt install pipx -y
-python3 -m pipx ensurepath -y
-
 #Java
 sudo apt install openjdk-17-jre-headless -y
 
@@ -30,5 +24,4 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update && sudo apt install terraform -y
 
 #Ansible
-pipx install --include-deps ansible
-pipx install ansible-core
+sudo apt install ansible-core -y
