@@ -38,7 +38,7 @@ To get started with the setup, follow these steps:
 3. **Make the setup scripts executable**:
 
     ```bash
-    chmod +x *.sh
+    chmod +x infra_setup.sh
     ```
 
 4. **Run the basic installation**:
