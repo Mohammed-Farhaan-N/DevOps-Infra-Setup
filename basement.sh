@@ -3,9 +3,9 @@ sudo apt install unzip -y
 sudo apt install curl -y 
 
 #Python3 
-sudo apt install python3
-sudo apt install python3-pip
-sudo apt install pipx
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+sudo apt install pipx -y
 python3 -m pipx ensurepath
 
 #Java
