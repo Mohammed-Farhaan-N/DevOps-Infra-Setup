@@ -25,7 +25,7 @@ def instance = Jenkins.getInstance()
 
 // Set up the Jenkins built-in user database
 def hudsonRealm = new HudsonPrivateSecurityRealm(false)
-hudsonRealm.createAccount("admin", "admin123")  // Replace with your desired username and password
+hudsonRealm.createAccount("admin", "admin")  // Replace with your desired username and password
 instance.setSecurityRealm(hudsonRealm)
 
 // Set up the authorization strategy
@@ -35,7 +35,7 @@ instance.setAuthorizationStrategy(strategy)
 
 instance.save()
 
-println "Admin user 'admin' created with password 'admin123'."
+println "Admin user 'admin' created with password 'admin'."
 EOL
 
 
