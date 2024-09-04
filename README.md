@@ -2,7 +2,7 @@
 
 * This is in the development process
 
-* Credentials for Jenkins, nexus, Sounarqube
+* Credentials for Jenkins, Sounarqube
 * Username: admin 
 * Password: admin
 
