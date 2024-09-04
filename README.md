@@ -8,3 +8,6 @@ run
 * cd infra-setup
 * chmod +x infra_setup.sh
 * sudo bash ./infra_setup.sh
+
+
+#created by https://github.com/Mohammed-Farhaan-N

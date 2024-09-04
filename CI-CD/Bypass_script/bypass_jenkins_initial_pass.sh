@@ -44,3 +44,4 @@ echo "Restarting Jenkins to apply changes..."
 sudo systemctl restart jenkins
 
 echo "Jenkins setup is complete. The initial admin password has been disabled and an admin user has been created."
+#created by https://github.com/Mohammed-Farhaan-N

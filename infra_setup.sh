@@ -2,3 +2,4 @@ chmod +x basement.sh Jenkins.sh /Kubenetes/kube-config.sh /CI-CD/Artifactory.sh 
 sudo bash ./basement.sh
 
 
+#created by https://github.com/Mohammed-Farhaan-N

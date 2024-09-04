@@ -25,3 +25,5 @@ sudo apt update && sudo apt install terraform -y
 
 #Ansible
 sudo apt install ansible-core -y
+
+#created by https://github.com/Mohammed-Farhaan-N

@@ -64,3 +64,4 @@ configure_users_properties
 restart_nexus_container
 
 echo "Nexus initial password bypass is configured in Docker."
+#created by https://github.com/Mohammed-Farhaan-N
