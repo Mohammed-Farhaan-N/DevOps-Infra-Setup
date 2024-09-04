@@ -1,4 +1,6 @@
-
+sudo apt update -y
+sudo apt install curl -y 
+sudo apt install unzip -y
 
 #awscli
 
