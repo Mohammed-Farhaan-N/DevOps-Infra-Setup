@@ -8,8 +8,8 @@
 
 run 
 
-* git clone https://github.com/Mohammed-Farhaan-N/infra-setup.git
-* cd infra-setup
+* git clone https://github.com/Mohammed-Farhaan-N/DevOps-Infra-Setup.git
+* cd DevOps-Infra-Setup
 * chmod +x infra_setup.sh
 * sudo bash ./infra_setup.sh
 
