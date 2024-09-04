@@ -2,6 +2,10 @@
 
 * This is in the development process
 
+*for Jenkins, nexus, Sounarqube
+*username: admin 
+*password: admin
+
 run 
 
 * git clone https://github.com/Mohammed-Farhaan-N/infra-setup.git
