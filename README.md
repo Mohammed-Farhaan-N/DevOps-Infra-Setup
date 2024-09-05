@@ -1,6 +1,6 @@
 # DevOps-Infra-Setup 🚀
 
-Welcome to the **DevOps-Infra-Setup** project! This innovative tool streamlines the installation and configuration of essential DevOps tools and infrastructure. Designed specifically for Ubuntu/Debian systems, it offers a seamless setup experience, so you can focus on optimizing your workflows and advancing your projects.
+Welcome to the **DevOps-Infra-Setup** project! This will help you streamline the installation and configuration of essential DevOps tools and infrastructure. Designed specifically for Ubuntu/Debian systems, it offers a seamless setup experience, so you can focus on optimizing your workflows and advancing your projects. Trust me you are going to save a Ton of time!!!! 
 
 ## 🎯 Features
 
@@ -79,7 +79,7 @@ Choose the script based on your needs:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to create a pull request or report any issues.
+Contributions are welcome! Please don't hesitate to create a pull request or report any issues.
 
 ## 📜 License
 
