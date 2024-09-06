@@ -46,7 +46,9 @@ To get started with the setup, follow these steps:
     ```bash
     sudo ./infra_setup.sh
     ```
-    **Have a "easy a to copy note"**
+    
+**Have a "easy to copy note"**
+   
 1.**Just copy this and paste it(this will install the Default Setup)**
    
     ```bash
