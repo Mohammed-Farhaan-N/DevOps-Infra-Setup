@@ -18,7 +18,7 @@ Welcome to the **DevOps-Infra-Setup** project! This will help you streamline the
   - **Username**: `admin`
   - **Password**: `admin`
 
-  ![DevOps_Infra_Setup bypassed jenkins](Images/hosted.JPG "DevOps_Infra_Setup bypassed jenkins")
+  ![DevOps_Infra_Setup bypassed jenkins](Images/check_ver.JPG "DevOps_Infra_Setup bypassed jenkins")
     
 ## 🛠 Getting Started
 
@@ -32,7 +32,7 @@ To get started with the setup, follow these steps:
         chmod +x infra_setup.sh
         sudo ./infra_setup.sh
      ```
-    
+    ![DevOps_Infra_Setup default](Images/default.JPG "DevOps_Infra_Setup default")
 
 ## ⚙️ Usage
 
@@ -57,6 +57,7 @@ Choose the script based on your needs:
     ```bash
     sudo ./check_versions.sh
     ```
+![DevOps_Infra_Setup check_versions](Images/check_ver.JPG "DevOps_Infra_Setup check_versions")
 
 ## 🛡 Notes
 
