@@ -47,16 +47,14 @@ To get started with the setup, follow these steps:
     sudo ./infra_setup.sh
     ```
     
-**Have a "easy to copy note"**
-   
-1.**Just copy this and paste it(this will install the Default Setup)**
+ 5. **Just Have an "easy to copy note"(this will install the Default Setup)**:
    
     ```bash
-      git clone https://github.com/Mohammed-Farhaan-N/DevOps-Infra-Setup.git
-      cd DevOps-Infra-Setup
-      chmod +x infra_setup.sh
-      sudo ./infra_setup.sh
-    ```
+        git clone https://github.com/Mohammed-Farhaan-N/DevOps-Infra-Setup.git
+        cd DevOps-Infra-Setup
+        chmod +x infra_setup.sh
+        sudo ./infra_setup.sh
+      ```
     
 
 ## ⚙️ Usage
