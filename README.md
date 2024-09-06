@@ -57,7 +57,7 @@ Choose the script based on your needs:
     ```bash
     sudo ./check_versions.sh
     ```
-![DevOps_Infra_Setup check_versions](Images/check_ver.JPG "DevOps_Infra_Setup check_versions")
+    ![DevOps_Infra_Setup check_versions](Images/check_ver.JPG "DevOps_Infra_Setup check_versions")
 
 ## 🛡 Notes
 
