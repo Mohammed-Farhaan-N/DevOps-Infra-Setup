@@ -44,8 +44,18 @@ To get started with the setup, follow these steps:
 4. **Run the basic installation**:
 
     ```bash
-    sudo ./basement.sh
+    sudo ./infra_setup.sh
     ```
+    **Have a "easy a to copy note"**
+1.**Just copy this and paste it(this will install the Default Setup)**
+   
+    ```bash
+      git clone https://github.com/Mohammed-Farhaan-N/DevOps-Infra-Setup.git
+      cd DevOps-Infra-Setup
+      chmod +x infra_setup.sh
+      sudo ./infra_setup.sh
+    ```
+    
 
 ## ⚙️ Usage
 
