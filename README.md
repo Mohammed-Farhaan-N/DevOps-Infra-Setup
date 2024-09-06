@@ -9,14 +9,14 @@ Welcome to the **DevOps-Infra-Setup** project! This will help you streamline the
   - **Jenkins Setup**: Installs and configures Jenkins only.
   - **Full CI/CD Environment**: Installs Jenkins, SonarQube, Trivy, and Nexus.
   - **Kubernetes Environment**: Sets up `kubectl`, Helm, and `eksctl` for managing Kubernetes clusters.
-
-
-- **Security Note**:
-  - **Jenkins Initial Admin Password**: I have reverse-engineered and bypassed the initial admin password setup for Jenkins. The credentials `admin` for both username and password are provided for convenience.
+    
   
-- **Predefined Credentials**:
-  - **Jenkins Username**: `admin`
-  - **Jenkins Password**: `admin`
+## 🔒 Security Note
+
+- **Jenkins Initial Admin Password**: I have reverse-engineered and bypassed the initial admin password setup for Jenkins. Default credentials are:
+
+  - **Username**: `admin`
+  - **Password**: `admin`
  
     
 ## 🛠 Getting Started
