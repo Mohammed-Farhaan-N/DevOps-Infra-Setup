@@ -17,7 +17,8 @@ Welcome to the **DevOps-Infra-Setup** project! This will help you streamline the
 
   - **Username**: `admin`
   - **Password**: `admin`
- 
+
+  ![DevOps_Infra_Setup bypassed jenkins](Images/hosted.jpg "DevOps_Infra_Setup bypassed jenkins")
     
 ## 🛠 Getting Started
 
