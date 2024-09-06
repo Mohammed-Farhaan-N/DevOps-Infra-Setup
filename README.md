@@ -80,4 +80,4 @@ This open-source project is available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-Created by [Mohammed Farhaan N](https://github.com/Mohammed-Farhaan-N)
+Created by [Mohammed Farhaan N](https://github.com/Mohammed-Farhaan-N) [Blog](https://mohammedfarhaan.hashnode.dev/mastering-devops-best-strategies-to-slash-time-and-costs)
