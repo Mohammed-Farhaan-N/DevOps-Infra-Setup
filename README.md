@@ -49,7 +49,7 @@ Choose the script based on your needs:
 
 - **Set up Kubernetes Environment (kubectl, Helm, eksctl)**:
     ```bash
-    ./Kube.setup.sh
+    sudo ./Kube_setup.sh
     ```
 
 - **Verify all tools are installed**:
