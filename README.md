@@ -54,7 +54,7 @@ Choose the script based on your needs:
 
 - **Verify all tools are installed**:
     ```bash
-    sudo ./check_version.sh
+    sudo ./check_versions.sh
     ```
 
 ## 🛡 Notes
