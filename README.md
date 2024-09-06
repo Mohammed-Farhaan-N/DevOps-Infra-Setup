@@ -22,39 +22,15 @@ Welcome to the **DevOps-Infra-Setup** project! This will help you streamline the
 ## 🛠 Getting Started
 
 To get started with the setup, follow these steps:
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/Mohammed-Farhaan-N/DevOps-Infra-Setup.git
-    ```
-
-2. **Navigate to the project directory**:
-
-    ```bash
-    cd DevOps-Infra-Setup
-    ```
-
-3. **Make the setup scripts executable**:
-
-    ```bash
-    chmod +x infra_setup.sh
-    ```
-
-4. **Run the basic installation**:
-
-    ```bash
-    sudo ./infra_setup.sh
-    ```
     
- 5. **Just Have an "easy to copy note"(this will install the Default Setup)**:
+ 1. **Just Have an "easy to copy"(This gone install the Default Setup)**:
    
     ```bash
         git clone https://github.com/Mohammed-Farhaan-N/DevOps-Infra-Setup.git
         cd DevOps-Infra-Setup
         chmod +x infra_setup.sh
         sudo ./infra_setup.sh
-      ```
+     ```
     
 
 ## ⚙️ Usage
